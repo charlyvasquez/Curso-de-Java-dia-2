@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication2;
+package Package2;
 
 import java.util.List;
 
@@ -11,12 +11,6 @@ import java.util.List;
  *
  * @author laoratorio
  */
-public class Materia {
-
-private String nombre;
-private List<seccion>secciones;
-
-    
-    
-    
+public class Pensum {
+private List<Materia>materias;
 }

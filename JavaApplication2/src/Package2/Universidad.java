@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication2;
+package Package2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +33,12 @@ private List<Carrera>carreras;
 
     public void setCarreras(List<Carrera> carreras) {
         this.carreras = carreras;
+    }
+
+    @Override
+    public String toString() {
+        String result = "Nombre: " +Nombre + "\nUbicacion: " + ubicacion;
+        return result;
     }
 
 

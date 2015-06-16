@@ -1,7 +1,7 @@
-package javaapplication2;
+package Package2;
 
 
-import javaapplication2.PersonaClase;
+import Package2.PersonaClase;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
